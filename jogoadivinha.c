@@ -18,18 +18,18 @@ int main() {
         scanf("%d", &tentativa);
 
         if (tentativa < numeroSecreto) {
-            printf("🔺 Muito baixo!\n");
+            printf("Muito baixo!\n");
         } else if (tentativa > numeroSecreto) {
-            printf("🔻 Muito alto!\n");
+            printf("Muito alto!\n");
         }
 
         tentativasRestantes--;
     }
 
     if (tentativa == numeroSecreto) {
-        printf("\n🎉 Parabéns! Você acertou o número %d!\n", numeroSecreto);
+        printf("\n Parabéns! Você acertou o número %d!\n", numeroSecreto);
     } else {
-        printf("\n😞 Suas tentativas acabaram. O número era %d.\n", numeroSecreto);
+        printf("\n Suas tentativas acabaram. O número era %d.\n", numeroSecreto);
     }
 
     return 0;
